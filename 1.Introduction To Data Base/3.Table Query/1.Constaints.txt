@@ -91,3 +91,31 @@ CREATE Table BVI_Student
     constraint ck_rule CHECK(Age>10)
     
 );  
+
+
+
+Multiple PRIMARY KEY or Composite PRIMARY KEY
+
+course :
+----------------------------------------
+course  | University    | credit       |
+----------------------------------------
+cse101  | DU            | 4            | 
+----------------------------------------
+cse101  | JNU           | 3            |
+---------------------------------------
+Me104   | DU            | 3            |
+---------------------------------------
+
+if we want to take a PRIMARY key there we need 1 more field for PRIMARY key 
+
+(courseName, University) pK
+
+code:
+create TABLE COURSE
+(
+courseName varchar(39) ,
+University varchar(59),
+Cradit int,
+primary key (courseName ,University)
+);
