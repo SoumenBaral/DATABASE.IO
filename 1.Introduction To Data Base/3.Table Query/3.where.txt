@@ -19,3 +19,6 @@ Select * from Student WHERE Name = "Sara"
 question: give the the University name which roll is 1;
 
 Select University from Student WHERE Roll = 1;
+
+
+We use where to find element from the database 
