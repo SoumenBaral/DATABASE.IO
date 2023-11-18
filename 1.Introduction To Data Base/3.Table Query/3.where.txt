@@ -1,0 +1,21 @@
+WHERE Query
+-----------
+
+Student :
+----------------------------------------
+cName  | University    | Roll | Name    |
+----------------------------------------
+cse101  | DU            | 1   | Tara    | 
+----------------------------------------
+cse101  | JNU           | 2   | Sara    |
+---------------------------------------
+Me104   | DU            | 3   | Nara    |
+---------------------------------------
+
+question: give me all information of Sara
+
+Select * from Student WHERE Name = "Sara"
+
+question: give the the University name which roll is 1;
+
+Select University from Student WHERE Roll = 1;
