@@ -4,7 +4,7 @@ work of Select Query is showing data
 
 course :
 ----------------------------------------
-course  | University    | credit       |
+cName   | University    | credit       |
 ----------------------------------------
 cse101  | DU            | 4            | 
 ----------------------------------------
@@ -16,5 +16,11 @@ Me104   | DU            | 3            |
 
 
 If we need all this data from the  table then :
+-----------------------------------------------
 
 Select * from course
+
+If we need specific colum then we have to give the name of the table 
+
+
+Select cName  from course
