@@ -10,3 +10,20 @@ Select ...........
 from -------
 where is or This and that 
 
+
+Distinct (Different): Every element will be Different I mean unique 
+
+Select Distinct  ...........
+from -------
+
+
+
+Limit: 1000------> first 10 want to show 
+
+Select  ...........
+from ------- Limit--------
+
+
+
+
+
