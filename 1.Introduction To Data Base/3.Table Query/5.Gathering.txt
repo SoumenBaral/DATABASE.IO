@@ -1,0 +1,5 @@
+Comparison Operation and operator : < , > , != is same as <> 
+
+Select ...........
+from -------
+where Age >10 and so on 
