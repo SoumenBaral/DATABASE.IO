@@ -3,3 +3,10 @@ Comparison Operation and operator : < , > , != is same as <>
 Select ...........
 from -------
 where Age >10 and so on 
+
+Logical Operation (And OR)
+
+Select ...........
+from -------
+where is or This and that 
+
