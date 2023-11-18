@@ -12,3 +12,68 @@ There are different types of Constraints here:
 4. CHECK
 5. DEFAULT
 6. NO NULL
+
+
+set Constraints::::
+
+code ..
+
+USE Programming_Phitron;
+
+
+CREATE Table AML_Student 
+(
+	Roll CHAR(4) PRIMARY KEY,
+   _Name VARCHAR(20) NOT NULL,
+    Email VARCHAR(60) UNIQUE,
+    Address VARCHAR(250),
+    Age INT CHECK(Age>10)
+);  
+
+CREATE Table BVI_Student 
+(
+	Roll CHAR(4),
+   _Name VARCHAR(20),
+    Email VARCHAR(60),
+    Address VARCHAR(250),
+    Age INT,
+    PRIMARY KEY (Roll),
+    UNIQUE(Email), 
+    CHECK(Age>10)
+    
+);  
+
+CREATE Table BVI_Student 
+(
+	Roll CHAR(4),
+   _Name VARCHAR(20),
+    Email VARCHAR(60),
+    Address VARCHAR(250),
+    Age INT
+);  
+
+CREATE Table BVI_Student 
+(
+	Roll CHAR(4),
+   _Name VARCHAR(20),
+    Email VARCHAR(60),
+    Address VARCHAR(250),
+    Age INT,
+    PRIMARY KEY (Roll),
+    UNIQUE(Email), 
+    CHECK(Age>10)
+    
+);  
+
+CREATE Table BVI_Student 
+(
+	Roll CHAR(4),
+   _Name VARCHAR(20),
+    Email VARCHAR(60),
+    Address VARCHAR(250),
+    Age INT,
+    constraint PRIMARY KEY (Roll),
+    constraint UNIQUE(Email), 
+    constraint CHECK(Age>10)
+    
+);  
