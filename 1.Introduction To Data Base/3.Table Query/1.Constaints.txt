@@ -1,0 +1,14 @@
+Create Constraints.............
+
+Constraints means Rules . When ever we want to make a table we have to maintain
+some Rules that us Constraints. we have to set the Rules for the table before 
+crating the table 
+
+There are different types of Constraints here:
+
+1. PRIMARY KEY 
+2. FOREIGN KEY
+3. UNIQUE 
+4. CHECK
+5. DEFAULT
+6. NO NULL
