@@ -25,5 +25,51 @@ from ------- Limit--------
 
 
 
+Offset: skip
+
+Select  ...........
+from ------- Offset-------
+
+
+Order By ----->Asc(Small to Big) or DESC (Big-->Small)
+
+Select name 
+from employee Order be Age Asc 
+
+
+
+
+In or Not In : isIn the table
+
+roll(2,5,6)
+
+Select -------
+from---------
+where roll in (2,5,6)
+
+
+
+
+like : 
+
+Name : soumen Baral , md shakib khan
+
+
+Select roll from ----
+
+where name like "soumen % " ---> end have some value 
+
+                "%shakib%" ----> Both side have value
+
+As:
+
+
+when some thing become Big then we can use ass
+
+Select companyName as CN 
+from-----------------
+where___________________
+
+
 
 
