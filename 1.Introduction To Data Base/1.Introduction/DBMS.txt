@@ -1,0 +1,27 @@
+        Database Management System 
+--------------------------------------------
+
+
+DBMS  : database Management system
+rDBMS : Relational Database Management system
+
+        System is a Software 
+
+
+Maximum Database is rDBMS database 
+
+Every database have :
+            1. Data(info)
+            2. user(we)
+            3. Hardware(Computer)
+            4. Software(System)
+            5. Processing (it can process data that means paly with data )
+
+Advantage Of Database: 
+            1. Organized
+            2. keep/storing
+            3. Retrieve
+            4. Fast Access
+            5. parallel Accessing 
+    
+   .................... Best of Luck......................

@@ -1,0 +1,17 @@
+1.Create : Create a table 
+
+2. Insert : table exist
+            data entry 
+
+3. Update : table exist
+            data exist
+            data change 
+
+4. Delete : table exist
+            data exist
+            Delete data 
+
+
+5. Drop   :  Delete full table
+
+operation...

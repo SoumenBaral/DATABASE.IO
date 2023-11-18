@@ -1,0 +1,13 @@
+
+We mainly make Relation into two table ***
+
+Type of Relation :
+
+
+1. One to one : t One full row to another full row (Student ---> Student Contact)
+2. One to many :  One row  can Take another tables more then one row Multiple row (Student -> Result)
+3. Many to many : first table one row can connected with 2nd table many row and same to at 
+                     second table one row can connected with first table Multiple row
+                     (Student ----------> course)
+
+

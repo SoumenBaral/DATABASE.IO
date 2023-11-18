@@ -1,0 +1,24 @@
+Database is a system of storing data :
+                    1. keep
+                    2. manage 
+                    3. Retrieve
+
+Type of Database:
+
+1. Relational Database : Definition is in it's name , when 2 database will represent one another 
+                         it will be Relational database
+                        
+
+
+2. Non-Relational Database : No Relational 
+
+3. Graph Database : represent data in the form of Graph 
+
+4. Centralized Database : Facebook is the perfect example of Centralized database
+
+5. Cloud Database : GoogleDrive 
+
+6. Distributed Database : Amazon , company same but different database for different region
+                          one is for Asia , africa , europe so no .
+
+There is lots of database .............................

@@ -1,0 +1,12 @@
+            TABLE , RECORD , VALUE , FIELD
+
+Table : Table have some header and some value some row and colum 
+
+
+FIELD : Table header . the  name of every colum
+
+VALUE : Every element of the Table except td
+
+RECORD : A full row of with the vale is called Record.
+
+need to test

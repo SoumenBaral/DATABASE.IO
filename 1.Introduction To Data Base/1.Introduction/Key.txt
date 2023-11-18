@@ -1,0 +1,45 @@
+                        Primary key
+                ==========================
+
+
+Key : By the using of key we can get the the vale
+
+A  Database store everything in Table 
+
+
+Think we have a Table and we know some one name in this table we can get the another info 
+by the using of the name 
+So , we can say that name is key
+
+
+Primary key ::
+                Primary key is a unique vale of the field all value will be unique
+
+
+
+
+
+Type of Key 
+
+                         | key |
+                    ================
+                            |
+                           \|/
+    ---------------------------------------------------                   
+    |                       |                         |
+    |                       |                         |
+1.Primary key       2.Composite Primary key     3.Foreign Key
+
+
+Primary key ::
+                Primary key is a unique vale of the field all value will be unique
+
+
+Composite Primary key :
+                if their is not a unique field in the table their we use two value form 
+                different field to make  a unique key (csc111,Du) (csc111,Bup)
+
+Foreign key:
+            when we use the Primary key of another table to track the value their we called 
+            Foreign key
+            
