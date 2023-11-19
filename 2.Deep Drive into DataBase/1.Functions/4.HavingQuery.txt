@@ -1,0 +1,7 @@
+Group by Having :::::
+It is a Extension of Group Function 
+
+
+SELECT department_id , MAX(salary)
+FROM employees
+GROUP BY department_id;
