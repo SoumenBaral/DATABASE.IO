@@ -5,3 +5,26 @@ ALTER table Query
 DELETE , UPDATE : They are work with the data of the table
 
 ALTER ,Drop : They works with the structure of the table alter works with full colum of the table 
+
+
+ex:
+
+****ADD COLUMNS*****
+
+ALTER TABLE employees
+ADD COLUMNS Email VARCHAR(56)
+
+
+****Drop/DELETE  COLUMNS*****
+
+
+ALTER TABLE employees
+DROP COLUMNS salary
+
+** MODIFY COLUMNS**
+
+
+ALTER TABLE employees
+MODIFY COLUMNS Email VARCHAR(100)  
+
+increase the VARCHAR value that means i MODIFY the value 
