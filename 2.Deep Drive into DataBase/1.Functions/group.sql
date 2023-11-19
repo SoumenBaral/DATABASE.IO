@@ -39,3 +39,7 @@ FROM employees
 WHERE department_id != 20
 GROUP BY department_id
 Having(sal)<5000;
+
+
+
+#ALTER is a table structure modifier we can add columns update columns and modify the columns
