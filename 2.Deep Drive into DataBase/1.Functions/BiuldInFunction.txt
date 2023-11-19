@@ -1,0 +1,3 @@
+Upper ---> aBc,abc,Abc ---> ABC
+Lower ---> ABC ,aBc ------> abc
+Abs -----> Absolute value --->|2| or |-2| ----> all will be positive -->2
