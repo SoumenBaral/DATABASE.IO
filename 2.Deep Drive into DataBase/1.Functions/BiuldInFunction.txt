@@ -22,3 +22,7 @@ FLOOR ---> Lower value ----> FLOOR(3.999)-->3
 DIV --->2/4 or 2 DIV 4
 
 EXP ----> Exponential mean e to the power some thing .. e^2 we can write EXP(2)
+
+GREATEST --->GREATEST(3,5,6,3,7,23,1)--> 23
+
+LEST --->(3,5,6,3,7,23,1)--> 1
