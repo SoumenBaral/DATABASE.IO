@@ -26,3 +26,25 @@ EXP ----> Exponential mean e to the power some thing .. e^2 we can write EXP(2)
 GREATEST --->GREATEST(3,5,6,3,7,23,1)--> 23
 
 LEST --->(3,5,6,3,7,23,1)--> 1
+
+LN --->ln is loge --->ln10
+
+LOG--->ln10 ---->LOG(10)
+
+LOG10 --->LOG10(10) -->1
+
+LOG2 ---->LOG2[]
+
+MOD -----> 5 MOD 2 -->1
+
+PI ------->3.1416...... ----> PI()
+
+POW ----> POWER OF something POW(3,2)
+
+RAND -----> Random number generator RAND() --->0-1
+
+ROUND ---> ROUND the value ROUND(3.536423,2) ---> 3.54
+
+SQRT ----> square root of some thing SQRT(4) -->2
+
+TRUNCATE ---->Ass it is
