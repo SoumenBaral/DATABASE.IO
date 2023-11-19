@@ -1,0 +1,7 @@
+ALTER table Query 
+-----------------------
+
+
+DELETE , UPDATE : They are work with the data of the table
+
+ALTER ,Drop : They works with the structure of the table alter works with full colum of the table 
