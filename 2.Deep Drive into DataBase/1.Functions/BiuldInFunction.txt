@@ -13,3 +13,8 @@ ACOS--> ACOS is a opposite of cos like SEC -- ACOS(RADIANS())
 SIN--> same as cos
 
 ASIN ,TAN,ATAN --> same as Cos same rule 
+
+Mysql system Work with RADIANS.....
+
+CEIL ----> like as celling they will catch the upper value of-->CEIL(3.1)-->4
+FLOOR ---> Lower value ----> FLOOR(3.999)-->3
