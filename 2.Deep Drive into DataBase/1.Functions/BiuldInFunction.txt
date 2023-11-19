@@ -18,3 +18,7 @@ Mysql system Work with RADIANS.....
 
 CEIL ----> like as celling they will catch the upper value of-->CEIL(3.1)-->4
 FLOOR ---> Lower value ----> FLOOR(3.999)-->3
+
+DIV --->2/4 or 2 DIV 4
+
+EXP ----> Exponential mean e to the power some thing .. e^2 we can write EXP(2)
