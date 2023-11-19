@@ -1,0 +1,19 @@
+========================================================================
+* Mysql installation:
+-> sudo  apt install mysql-server
+========================================================================
+* Add password
+-> sudo mysql
+-> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+========================================================================
+* Enter mysql after set password
+-> sudo mysql -u root -p
+========================================================================
+* Mysql security setup command:
+-> sudo mysql_secure_installation
+========================================================================
+* Mysql server start command:
+-> sudo systemctl status mysql.service
+========================================================================
+* Mysql workbench gui installation:
+-> sudo snap install mysql-workbench-community
