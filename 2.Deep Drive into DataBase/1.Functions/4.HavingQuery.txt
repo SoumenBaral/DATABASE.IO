@@ -2,6 +2,23 @@ Group by Having :::::
 It is a Extension of Group Function 
 
 
+
+Group::::
+
+
 SELECT department_id , MAX(salary)
 FROM employees
 GROUP BY department_id;
+
+
+Having :: Condition over Group Function Having and where is not same things 
+
+ex:
+
+SELECT department_id , MAX(salary)
+FROM employees
+WHERE department_id != 20
+GROUP BY department_id
+Having(MAX(salary))<5000;
+
+
