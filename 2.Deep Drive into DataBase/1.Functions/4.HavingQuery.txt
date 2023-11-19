@@ -13,6 +13,9 @@ GROUP BY department_id;
 
 Having :: Condition over Group Function Having and where is not same things 
 
+when we make a Condition over the table then we will use ------------>WHERE
+when we make a Condition over the Group Function then we will use --->Having
+
 ex:
 
 SELECT department_id , MAX(salary)
