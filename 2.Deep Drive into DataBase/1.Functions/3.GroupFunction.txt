@@ -1,0 +1,9 @@
+MAX
+
+MIN 
+
+COUNT 
+
+SUM 
+
+AVG 
