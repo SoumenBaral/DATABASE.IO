@@ -25,3 +25,12 @@ GROUP BY department_id
 Having(MAX(salary))<5000;
 
 
+Uses of As
+
+
+SELECT department_id , MAX(salary) as sal
+FROM employees
+WHERE department_id != 20
+GROUP BY department_id
+Having(sal)<5000;
+
