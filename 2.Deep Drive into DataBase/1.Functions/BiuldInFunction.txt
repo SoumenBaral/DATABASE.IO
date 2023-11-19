@@ -1,3 +1,15 @@
-Upper ---> aBc,abc,Abc ---> ABC
-Lower ---> ABC ,aBc ------> abc
-Abs -----> Absolute value --->|2| or |-2| ----> all will be positive -->2
+Upper ---> aBc,abc,Abc --->UPPER('abc')-------> ABC 
+Lower ---> ABC ,aBc ------> LOWER("ABC")------> abc
+Abs -----> Absolute value --->|2| or |-2| ----> all will be positive -- ABS(-2)--->2
+
+DEGREES --> All value will in DEGREES ----DEGREES(3)--->3*
+
+RADIANS---> ALL DEGREES WILL IN RADIANS --->RADIANS(90)---> 90 * pai/180
+
+COS ---> we have to put the value in RADIANS ---->COS(RADIANS(90))--->1
+
+ACOS--> ACOS is a opposite of cos like SEC -- ACOS(RADIANS())
+
+SIN--> same as cos
+
+ASIN ,TAN,ATAN --> same as Cos same rule 
