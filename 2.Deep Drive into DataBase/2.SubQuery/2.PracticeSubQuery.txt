@@ -56,3 +56,13 @@ where department_id =(select department_id
 					from departments 
 					WHERE department_name = "iT"
 						);
+
+
+------------> programmer Total salary CEO wants to know via job table<-------------
+
+SELECT SUM(salary )
+FROM employees
+where job_id =(select job_id
+				from jobs
+                where job_title = 'Programmer'
+                );
