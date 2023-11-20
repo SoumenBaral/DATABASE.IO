@@ -1,3 +1,13 @@
 --------------->SubQuery<--------------
 
 SubQuery is a Query under the Query
+
+
+
+
+                                         --------------------------- 
+Select *                                  |  Select salary        |
+From Employee                             | From Employee         |
+where salary > (5000;)------------------- > where name = "Heady"  |
+                                          |-----------------------|                              
+  {Main Query}                               [SubQuery]
