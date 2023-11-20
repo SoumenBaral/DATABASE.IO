@@ -1,0 +1,7 @@
+Use SubQuery:
+
+SELECT * 
+FROM employees
+WHERE salary>(SELECT salary --------->Query under the Query 
+FROM employees
+WHERE employee_id = 144);
