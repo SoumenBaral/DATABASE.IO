@@ -18,5 +18,20 @@ where salary =(SELECT  max(salary)
 				FROM employees);
 
 
+# Somebody wants to know that employee of the  marketing 
+ SELECT * 
+from employees ;
 
+select * 
+from departments 
+where department_id = 20;
+
+# suppose we don't  know the the department Id then we need SubQuery
+
+select * 
+from departments 
+where department_id = ( SELECT department_id 
+						from employees 
+                        Where employee_id = 201
+                        );
 
