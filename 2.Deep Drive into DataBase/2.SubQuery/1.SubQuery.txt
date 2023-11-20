@@ -11,3 +11,10 @@ From Employee                             | From Employee         |
 where salary > (5000;)------------------- > where name = "Heady"  |
                                           |-----------------------|                              
   {Main Query}                               [SubQuery]
+
+
+  Uses of SubQuery::
+
+  Select (-----SubQuery-------)
+  From (-----SubQuery-------)
+  where (-----SubQuery-------) we will use it most 
