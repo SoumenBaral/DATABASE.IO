@@ -35,3 +35,24 @@ where department_id = ( SELECT department_id
                         Where employee_id = 201
                         );
 
+
+
+                      
+  -------->Average the Marketing department salary                      
+                        
+SELECT  avg(salary) 
+from employees
+where department_id =(select department_id 
+					from departments 
+					WHERE department_name = "Marketing "
+						);
+                        
+                        
+# Count How many  worker in IT Department 
+
+SELECT  COUNT(*) AS TOTAL_ITan
+from employees
+where department_id =(select department_id 
+					from departments 
+					WHERE department_name = "iT"
+						);
