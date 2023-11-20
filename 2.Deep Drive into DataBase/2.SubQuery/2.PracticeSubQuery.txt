@@ -1,7 +1,22 @@
 Use SubQuery:
 
+
+--->Check which salary is salary is less then (employee_id 144 )
+
 SELECT * 
 FROM employees
 WHERE salary>(SELECT salary --------->Query under the Query 
 FROM employees
 WHERE employee_id = 144);
+
+
+---->Check who Got Height salary in the company :
+
+SELECT * 
+FROM employees
+where salary =(SELECT  max(salary)
+				FROM employees);
+
+
+
+
