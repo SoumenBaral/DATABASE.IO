@@ -43,3 +43,19 @@ where salary > (
 				select salary 
                 from  employees as MGR
                 where EMP.manager_id = MGR.employee_id);
+
+---------------------------------------------------------------------------------
+
+
+Question : 3 Is my manager is all holder of my job title 
+
+
+----------------------------------------------------------------------------------
+
+
+select * 
+from employees as EMP
+where job_id = (
+				select job_id 
+                from  employees as MGR
+                where EMP.manager_id = MGR.employee_id);
