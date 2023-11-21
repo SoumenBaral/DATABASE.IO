@@ -36,3 +36,10 @@ where salary = (   select max(salary)
 Question 2: which Employees salary is Greater then his manager salary
 
 ---------------------------------------------------------------------------------
+
+select * 
+from employees as EMP
+where salary > (
+				select salary 
+                from  employees as MGR
+                where EMP.manager_id = MGR.employee_id);
