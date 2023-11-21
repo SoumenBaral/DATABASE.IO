@@ -37,3 +37,4 @@ Type of join:
 
 4.CrossJoin : common uncommon all will be in the output table 
 
+5.Self Join: it will in on its own table one colum to another colum joining 
