@@ -16,3 +16,16 @@ where salary = (
                     );
 
 This not efficient way to solve ;
+
+
+Way 2: Get the maximum first then make a Query where max will less then fist maximum
+
+select *
+from employees
+where salary = (   select max(salary)
+					from employees
+					where salary<(
+						select max(salary)
+						from employees
+					)
+                );
