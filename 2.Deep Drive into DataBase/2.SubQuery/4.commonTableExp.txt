@@ -1,0 +1,7 @@
+Common Table Expression
+
+
+Whenever we want to store a where's value to any where we need cte 
+
+
+keyWord : As  WITH
