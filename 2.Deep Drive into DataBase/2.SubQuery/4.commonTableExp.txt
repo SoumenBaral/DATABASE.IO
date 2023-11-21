@@ -5,3 +5,16 @@ Whenever we want to store a where's value to any where we need cte
 
 
 keyWord : As  WITH
+
+
+WITH--   which name we want to save --   As
+      ----------------------------
+
+      WITH tmp as (
+SELECT *
+FROM employees
+limit 5
+)
+select * 
+from tmp;
+
