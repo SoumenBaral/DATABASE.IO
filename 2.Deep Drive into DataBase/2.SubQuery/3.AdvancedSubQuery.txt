@@ -1,0 +1,3 @@
+AdvancedSubQuery :
+
+Question : Get the Second Height salary holder form the employee table?
