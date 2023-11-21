@@ -29,3 +29,10 @@ where salary = (   select max(salary)
 						from employees
 					)
                 );
+
+
+---------------------------------------------------------------------------------
+
+Question 2: which Employees salary is Greater then his manager salary
+
+---------------------------------------------------------------------------------
