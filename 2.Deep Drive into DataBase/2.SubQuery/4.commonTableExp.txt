@@ -36,3 +36,6 @@ MAXIS AS(
 SELECT *
 FROM employees 
 where salary > (SELECT SAL1 FROM AVGIT ) AND salary <(select SAL2 FROM MAXIS)
+
+
+DONE FOR .TODAY
