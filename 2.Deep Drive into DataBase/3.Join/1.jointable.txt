@@ -23,3 +23,16 @@ Another approach:
 
 select employees.first_name,departments.department_name
 from employees join departments using(department_id);
+
+
+----------------------------------------------------------
+
+Type of join:
+
+1. Inner join: Inner join is as only common elements join 
+
+2.Left Join : common of two tables and Left table will be output
+
+3.Right join : common of two tables and Right table will be output
+
+
