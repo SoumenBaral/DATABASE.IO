@@ -1,1 +1,10 @@
 when we a made a table by joining two  or more table the we call it a join table 
+
+
+we want to create a new table colum will me first Name from employee and department name form departments
+
+solve it without using join ::
+
+select employees.first_name,departments.department_name
+from employees,departments
+where departments.department_id = employees.department_id;
