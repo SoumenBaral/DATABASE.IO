@@ -155,3 +155,15 @@ WHERE salary<(
 
 );
 # i use limit because we got two steven so we are work with first steven
+
+
+
+9.Count the number of employees of each job type
+
+
+SELECT jobs.job_title as JOB_TYPE , COUNT(employees.employee_id) AS NUMBER_OF_EMPLOYEES
+FROM employees
+		JOIN jobs
+			ON employees.job_id = jobs.job_id
+GROUP BY JOB_TYPE ;
+
