@@ -167,3 +167,11 @@ FROM employees
 			ON employees.job_id = jobs.job_id
 GROUP BY JOB_TYPE ;
 
+10. Show the names of Departments which doesn’t have any employees
+
+
+SELECT departments.department_name
+FROM departments
+		LEFT JOIN employees
+			ON departments.department_id = employees.employee_id
+WHERE employees.employee_id IS NULL;
