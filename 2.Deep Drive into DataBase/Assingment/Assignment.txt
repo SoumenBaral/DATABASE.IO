@@ -97,3 +97,22 @@ FROM employees
 				ON employees.department_id = departments.department_id
 GROUP BY DEPARTMENT_NAME;
 
+6. illustrate the INNER, LEFT, RIGHT, SELF Joins
+
+
+
+            1. Inner join: Inner join is as only common elements join 
+
+                            
+
+            2.Left Join : common of two tables and Left table will be output
+
+
+
+
+            3.Right join : common of two tables and Right table will be output
+
+
+
+            4 .Self Join: it will in on its own table one colum to another column joining 
+
