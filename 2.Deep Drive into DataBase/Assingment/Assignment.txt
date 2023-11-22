@@ -88,3 +88,12 @@ where salary<(
               select max(salary)
 			  from employees
               );
+
+5. Write SQL Query to show  the department names and the average salary of the departments
+
+SELECT departments.department_name , AVG(salary)
+FROM employees
+		JOIN departments
+				ON employees.department_id = departments.department_id
+GROUP BY DEPARTMENT_NAME;
+
