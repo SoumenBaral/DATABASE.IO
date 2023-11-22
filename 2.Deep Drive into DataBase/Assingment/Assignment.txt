@@ -141,3 +141,17 @@ where department_id = ( SELECT department_id
                         Where employee_id = 201
                         );
 
+
+8. Show the names of the employees who get less salary than Steven
+
+
+SELECT first_name
+FROM employees
+WHERE salary<(
+				SELECT salary
+				FROM employees
+				WHERE first_name = 'Steven'
+                			LIMIT 1
+
+);
+# i use limit because we got two steven so we are work with first steven
