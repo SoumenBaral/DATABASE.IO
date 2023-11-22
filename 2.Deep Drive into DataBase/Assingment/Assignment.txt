@@ -116,3 +116,28 @@ GROUP BY DEPARTMENT_NAME;
 
             4 .Self Join: it will in on its own table one colum to another column joining 
 
+7. What is a subquery? Write with an example
+
+SubQuery is a Query under the Query
+
+
+
+
+                                                                --------------------------- —-
+Select *                                                   |  Select salary               |
+From Employee                                      | From Employee           |
+where salary > (5000;)------------------- >   where name = "Heady" |
+                                                                |--------------------------------|                              
+  {Main Query}                                               [SubQuery]
+
+Example : 
+
+# suppose we don't  know the the department Id then we need SubQuery
+
+select * 
+from departments 
+where department_id = ( SELECT department_id 
+						from employees 
+                        Where employee_id = 201
+                        );
+
