@@ -64,3 +64,27 @@ CREATE TABLE DEPARTMENTS(
 
 INSERT INTO EMPLOYEES(FIRST_NAME, LAST_NAME, DATE_OF_BIRTH,DEPARTMENT_ID, SALARY) VALUES ("SOUMEN ","BARA;",'1997-05-21','10',10000);
 INSERT INTO DEPARTMENTS (DEPARTMENT_ID, DEPARTMENT_NAME) VALUES ('50',"IT");
+
+
+4.Write SQL Query to get the second max salary 
+
+
+FIRST WAY : 
+
+
+SELECT  DISTINCT(salary) 
+FROM employees
+ORDER BY salary DESC
+LIMIT 1
+OFFSET 1;
+
+
+
+SECOND WAY : 
+
+select max(salary)
+from employees
+where salary<(
+              select max(salary)
+			  from employees
+              );
