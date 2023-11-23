@@ -2,3 +2,10 @@ Set Operation :
 _______________
                 1.When we take it into the set the all value will unique and take it in a singe time 
                 2.All value will be sorted ..
+
+Type of Set Operation: 
+----------------------
+                    1.Union 
+                    2.Union All
+                    3.Intersection 
+                    4.Minus
