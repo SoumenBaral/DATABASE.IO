@@ -41,3 +41,8 @@ if we want to delete the form the reference table they don't alow you to delete 
 so we have to use that (on delete cascade ) after make the relation with another 
 table foreign key....*** then when we delete Primary key row the foreign key will be
 delete automatically ..
+
+----------------------------------------------------------------------------
+
+if we don't want to delete the foreign key then on the behalf of on delete cascade 
+we have to use -------------> on delete set NULL 
