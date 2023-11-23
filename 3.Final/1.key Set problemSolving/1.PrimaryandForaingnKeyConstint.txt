@@ -1,1 +1,14 @@
 Primary key :
+            Primary key is key by the using of it we can identify a unique row .
+
+
+
+Foreign Key : whenever we use a anther tables Primary key into any filed that will  
+                call foreign key
+
+
+create table tableName
+(
+    abc char(5)
+    foreign key (abc) reference anotherTableName(Primary key row name ) 
+)
