@@ -12,3 +12,32 @@ create table tableName
     abc char(5)
     foreign key (abc) reference anotherTableName(Primary key row name ) 
 )
+
+
+Create Three table and make some connection over there 
+
+
+create table student (
+    roll varchar(5) Primary key,
+    name varchar(30)
+)
+
+create table course (
+    courseNo varchar(6) Primary key,
+    courseName varchar(39)
+
+)
+create table enroll (
+    roll varchar(5),
+    courseNo varchar(6),
+    date Date 
+    foreign key roll reference student(roll)
+    on delete cascade,
+    foreign key courseNo reference course(courseNo)
+    on delete cascade
+)
+
+if we want to delete the form the reference table they don't alow you to delete it 
+so we have to use that (on delete cascade ) after make the relation with another 
+table foreign key....*** then when we delete Primary key row the foreign key will be
+delete automatically ..
