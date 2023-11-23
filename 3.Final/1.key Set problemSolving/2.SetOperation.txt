@@ -1,0 +1,4 @@
+Set Operation :
+_______________
+                1.When we take it into the set the all value will unique and take it in a singe time 
+                2.All value will be sorted ..
