@@ -26,9 +26,17 @@ Type of Set Operation:
 3.Intersection: 
         A Intersection B = {3,5,7}
 
+4. Minus:
+        A = {1,2,3,4,5}
+        B = {2,3,5,7}
 
+A Minus B = {1,4} 
 
--- unior operation 
+In the section of Minus we just take the value from fist and don't use the value 
+that B hold the B all value will be removed and common think will remove from the 
+first Things.
+
+-- union operation 
 SELECT *
 FROM employees
 where salary > 10000
