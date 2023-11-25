@@ -73,5 +73,17 @@ ________________________________________________________________________________
                 +--------------+-----------------+
                 |              |                 |
          -------+------  ------+--------  -------+--------
-          1.Composite     2.MultiValued    3.Derived    
-                                                                                                                                         
+          1.Composite      2.MultiValued      3.Derived
+
+
+1.Composite : Attribute under the Attribute nested attribute
+
+2.MultiValued : on attribute can more then one value and we use {} for use MultiValued
+
+3. Derived :  when we got the one value form another value like age from year ,
+
+
+
+Specialization : up to down 
+
+Generalization : down to up
