@@ -1,3 +1,14 @@
  ------ERD-->Entity Relationship Diagram-----------
 
  Entity --->Table of DataBase
+
+
+
+ Relation with Entity :
+
+    +-------------------+             /\        +-------------------+  
+    |Entity name(table) |            /  \       |Entity name(table) | 
+    |-------------------+ -------- >/Rs_n\<-----|-------------------|
+    |attribute/field    |           \    /      |attribute/field    |   
+    +-------------------+            \  /       +-------------------+
+                                      \/                                                                                                                                                                                   
