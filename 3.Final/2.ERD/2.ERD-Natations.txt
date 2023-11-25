@@ -63,4 +63,15 @@ Strong Entity: when primary key exist in  the table and the Entity Don't depends
 
 Weak Entity: opposite of Strong
 
+
+________________________________________________________________________________________________
+
+                         :Attribute:
+                     ----------+-----------
+                               |
+                               |
+                +--------------+-----------------+
+                |              |                 |
+         -------+------  ------+--------  -------+--------
+          1.Composite     2.MultiValued    3.Derived    
                                                                                                                                          
