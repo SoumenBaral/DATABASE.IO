@@ -21,3 +21,17 @@ DataBase Design
                     the patient , recaption and so on then we have data the data .
     
     Bottom Up : It's totally opposite of the Top Down . Data first then make a model model
+
+
+
+    ** Requirement analysis: what type thing are Require 
+
+    ** What not to do : 
+    1. Redundancy : Don't repeat more then on column to another table because 
+                    we can all the data from i common think
+    
+    2.Incompleteness: need to take same row and colum on to another table 
+
+
+
+            ------ERD-->Entity Relationship Diagram-----------
