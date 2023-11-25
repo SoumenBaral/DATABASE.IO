@@ -54,4 +54,11 @@
 
 
 
+            aERD Strong Entity and Weak Entity:
+
+Strong Entity: when primary key exist in  the table and the Entity Don't depends on another then
+               its called Strong Entity.
+
+Weak Entity: opposite of Strong
+
                                                                                                                                          
