@@ -1,0 +1,23 @@
+DataBase Design
+
+
+                        DataBase Design
+                              |
+                              |
+                              |
+        ----------------------+------------------------
+        |                                             |
+        |                                             |
+  ------+------                                 ------+------
+    Top Down                                      Bottom Up
+
+
+
+
+    Top Down: top will be model and Down will be Data
+
+                ex: if we want to make a database then first we have to think about
+                    the model of the the hospital doctor section the management section
+                    the patient , recaption and so on then we have data the data .
+    
+    Bottom Up : It's totally opposite of the Top Down . Data first then make a model model
