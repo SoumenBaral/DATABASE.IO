@@ -1,0 +1,9 @@
+create database StudentLibManagement;
+use StudentLibManagement;
+
+create table Student(
+Roll varchar(4),
+Name varchar(29)
+);
+
+insert Student (Roll,Name)value(2,"Soumen");
