@@ -2,8 +2,34 @@ create database StudentLibManagement;
 use StudentLibManagement;
 
 create table Student(
-Roll varchar(4),
+Roll varchar(4) primary key,
 Name varchar(29)
 );
+create table Librarian(
+Lb_Id varchar(4) primary key,
+Lb_Name varchar(29)
+);
+create table BooK(
+Book_Id varchar(4) primary key,
+Book_Name varchar(29),
+Book_Genre varchar(40)
+);
+create table borrow(
+Who_Borrowed_Roll varchar(4),
+Which_Book_id varchar(4),
+Borrow_date date,
+return_date date ,
+foreign key (Who_Borrowed_Roll) references Student(Roll) ,
+foreign key (Which_Book_id) references BooK(Book_Id) 
 
-insert Student (Roll,Name)value(2,"Soumen");
+);
+create table Permision(
+Which_Book_id varchar(4),
+Who_Parmited_Id varchar(4),
+
+foreign key (Which_Book_id) references  Librarian(Lb_Id) ,
+foreign key (Which_Book_id) references BooK(Book_Id) ,
+Primary key (Which_Book_id , Who_Parmited_Id )
+);
+
+insert BooK (Roll,Name)value(2,"Soumen");
